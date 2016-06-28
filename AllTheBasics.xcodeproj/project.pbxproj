@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B0A921F1D22B8FA00C754F2 /* VCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A921E1D22B8FA00C754F2 /* VCTests.swift */; };
 		5BA61EA21D22B68A00871321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA61EA11D22B68A00871321 /* AppDelegate.swift */; };
 		5BA61EA41D22B68A00871321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA61EA31D22B68A00871321 /* ViewController.swift */; };
 		5BA61EA71D22B68A00871321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA61EA51D22B68A00871321 /* Main.storyboard */; };
 		5BA61EA91D22B68A00871321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA61EA81D22B68A00871321 /* Assets.xcassets */; };
 		5BA61EAC1D22B68A00871321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA61EAA1D22B68A00871321 /* LaunchScreen.storyboard */; };
-		5BA61EB71D22B68A00871321 /* AllTheBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA61EB61D22B68A00871321 /* AllTheBasicsTests.swift */; };
 		C535EEB99B450950B01C402D /* Pods_AllTheBasicsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C84FA25C532A79EAC178C955 /* Pods_AllTheBasicsTests.framework */; };
 		FFE5039155FD3847D388A951 /* Pods_AllTheBasics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF989EA4E28525AEE0A48DD /* Pods_AllTheBasics.framework */; };
 /* End PBXBuildFile section */
@@ -30,6 +30,7 @@
 /* Begin PBXFileReference section */
 		06A03594C2BE78A67437991F /* Pods-AllTheBasics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTheBasics.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllTheBasics/Pods-AllTheBasics.release.xcconfig"; sourceTree = "<group>"; };
 		1DF989EA4E28525AEE0A48DD /* Pods_AllTheBasics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllTheBasics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0A921E1D22B8FA00C754F2 /* VCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTests.swift; sourceTree = "<group>"; };
 		5BA61E9E1D22B68A00871321 /* AllTheBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllTheBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA61EA11D22B68A00871321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA61EA31D22B68A00871321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		5BA61EAB1D22B68A00871321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA61EAD1D22B68A00871321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA61EB21D22B68A00871321 /* AllTheBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllTheBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA61EB61D22B68A00871321 /* AllTheBasicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTheBasicsTests.swift; sourceTree = "<group>"; };
 		5BA61EB81D22B68A00871321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611A9D5D8317C45322CD14E6 /* Pods-AllTheBasicsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTheBasicsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AllTheBasicsTests/Pods-AllTheBasicsTests.release.xcconfig"; sourceTree = "<group>"; };
 		8DA7A00203CFED32DFB7F588 /* Pods-AllTheBasicsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AllTheBasicsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AllTheBasicsTests/Pods-AllTheBasicsTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +77,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5B0A921D1D22B87900C754F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA61EA11D22B68A00871321 /* AppDelegate.swift */,
+				5BA61EA51D22B68A00871321 /* Main.storyboard */,
+				5BA61EA81D22B68A00871321 /* Assets.xcassets */,
+				5BA61EAA1D22B68A00871321 /* LaunchScreen.storyboard */,
+				5BA61EAD1D22B68A00871321 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		5BA61E951D22B68A00871321 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +112,8 @@
 		5BA61EA01D22B68A00871321 /* AllTheBasics */ = {
 			isa = PBXGroup;
 			children = (
-				5BA61EA11D22B68A00871321 /* AppDelegate.swift */,
 				5BA61EA31D22B68A00871321 /* ViewController.swift */,
-				5BA61EA51D22B68A00871321 /* Main.storyboard */,
-				5BA61EA81D22B68A00871321 /* Assets.xcassets */,
-				5BA61EAA1D22B68A00871321 /* LaunchScreen.storyboard */,
-				5BA61EAD1D22B68A00871321 /* Info.plist */,
+				5B0A921D1D22B87900C754F2 /* Supporting Files */,
 			);
 			path = AllTheBasics;
 			sourceTree = "<group>";
@@ -113,8 +121,8 @@
 		5BA61EB51D22B68A00871321 /* AllTheBasicsTests */ = {
 			isa = PBXGroup;
 			children = (
-				5BA61EB61D22B68A00871321 /* AllTheBasicsTests.swift */,
 				5BA61EB81D22B68A00871321 /* Info.plist */,
+				5B0A921E1D22B8FA00C754F2 /* VCTests.swift */,
 			);
 			path = AllTheBasicsTests;
 			sourceTree = "<group>";
@@ -337,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA61EB71D22B68A00871321 /* AllTheBasicsTests.swift in Sources */,
+				5B0A921F1D22B8FA00C754F2 /* VCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
