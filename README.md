@@ -3,28 +3,31 @@
 ![Ayn Rand](http://www.nndb.com/people/097/000030007/ayn-rand-wtl_big.jpg)
 > If you don't know, the thing to do is not to get scared, but to learn.
 
-## Learning Objectives - The student should be able to..
+## Fun with Basics!
 
-* Create `Bool` variables and know when they should use them.
-* Work with `Int` and `Double` types and perform math operations on those variables.
-* Work with the comparison and logical operators.
-* Work with conditionals and know when and how to use them.
-* Work with switch statements covering what it is they learned in the readme.
+##Instructions
+Write a function "doIt" on the class ViewController which takes two paramters: "a" (which is of type String) and "b" (which is of type Float) and returns a Float.  
 
-## What the student can do at this point 
+Here is how ````doIt```` should work:
+* Return zero if "a" does not represent a whole number between 1 and 5 (inclusive).  
+* Return zero if "b" is not between 10.5 and 15.0 (inclusive) or between 20.0 and 30.5 (inclusive).  
+* Otherwise the product of "a" and "b".
 
-* Create variables and constants
-* Is familiar with type annotations, type inference and string interpolation.
-* Can create functions with return types.
-* Is familiar with the String, Int, Double and Bool type.
-* Work with if and else clauses.
-* Knows how to make switch statements.
+Here are some examples:
 
-## Outline / Notes
+````Swift
+let a = doIt("2", 10.5)
+// a = 21.0
 
-* This particular lab in the playground file (which I've attached) can be fairly large, it will be covering all of unit 3 challenging the student on the various topics they learned.
-* Start with easy wins for the student.
-* The order of the questions don't have to follow along with the order of the topics introduced to them in the various readme's - mix it up.
-* Combine the various topics they learned into the questions.
+let b = doIt("9", 10.5)
+// b = 0.0
+
+let c = doIt("2", 7)
+// c = 0.0
+````
+
+
+NB your code might be more clear and debuggable if you break it up into multiple functions instead of having one "big" function.
+
 
 <a href='https://learn.co/lessons/AllUnit3Lab' data-visibility='hidden'>View this lesson on Learn.co</a>
