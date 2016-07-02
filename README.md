@@ -1,9 +1,8 @@
-# Math, Bool, Operators, Conditionals, Switch
-
-![Ayn Rand](http://www.nndb.com/people/097/000030007/ayn-rand-wtl_big.jpg)
-> If you don't know, the thing to do is not to get scared, but to learn.
-
 ## Fun with Basics!
+
+![Ayn Rand](http://i.imgur.com/PSrvvAf.jpg?1)
+> If you don't know, the thing to do is not to get scared, but to learn. -[Ayn Rand](https://en.wikipedia.org/wiki/Ayn_Rand)
+
 
 ##Instructions
 In this final lab you'll be writing three functions.
@@ -23,14 +22,7 @@ averageIsAbove75(100, 85, 90)
 // true
 ````
 
-Answer to the above question (tests would need to be written for this).
 
-````Swift
-func averageIsAbove75(a: Double, _ b: Double, _ c: Double) -> Bool {
-    let avg = (a + b + c) / 3
-    return avg > 75
-}
-````
 
 **2** - Create a function named ````passwordCombo```` that takes in two arguments, one of type String which represents the username and the other of type ````Int```` which represents the password. This function will return a ````String```` letting the caller of this function know if the username/password combo passed into the function is correct!
 
@@ -49,23 +41,7 @@ passwordCombo(username: "Elane", password: 33)
 // "Welcome!"
 ````
 
-Answer to the above question (tests would need to be written for this).
 
-````Swift
-func passwordCombo(username username: String, password: Int) -> String {
-    switch username {
-    case "Jerry", "Elane", "Michael":
-
-        if password % 3 == 0 {
-            return "Welcome!"
-        } else {
-            return "Access Denied"
-        }
-
-    default: return "Access Denied"
-    }
-}
-````
 
 
 
