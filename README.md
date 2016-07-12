@@ -31,10 +31,10 @@ Calling this function should yield the following results. Notice the external na
 passwordCombo(username: "Bran", password: 22)
 // "Access Denied
 
-passwordCombo(username: "Elane", password: 20)
+passwordCombo(username: "Elaine", password: 20)
 // "Access Denied"
 
-passwordCombo(username: "Elane", password: 33)
+passwordCombo(username: "Elaine", password: 33)
 // "Welcome!"
 ````
 
@@ -75,3 +75,4 @@ Your code might be more clear and debuggable if you break it up into multiple fu
 
 
 <a href='https://learn.co/lessons/AllUnit3Lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-mathBoolOpConSwitch-lab'>Math Bool Op Con Switch Lab</a> on Learn.co and start learning to code for free.</p>
