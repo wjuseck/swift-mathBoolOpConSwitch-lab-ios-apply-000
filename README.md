@@ -23,7 +23,7 @@ averageIsAbove75(100, 85, 90)
 
 **2** - Create a function named ````passwordCombo```` that takes in two arguments, one of type String which represents the username and the other of type ````Int```` which represents the password. This function will return a ````String```` letting the caller of this function know if the username/password combo passed into the function is correct!
 
-What makes it correct? The conditions are.. the username ````String```` must be either 'Jerry', 'Elane', or 'Michael'. The password must be divisible by 3. If the username + password conditions pass, then return back the ````String```` "Welcome!". If either fail, then the String to be returned should be "Access Denied"
+What makes it correct? The conditions are.. the username ````String```` must be either 'Jerry', 'Elaine', or 'Michael'. The password must be divisible by 3. If the username + password conditions pass, then return back the ````String```` "Welcome!". If either fail, then the String to be returned should be "Access Denied"
 
 Calling this function should yield the following results. Notice the external names of these arguments when calling on this function.
 
