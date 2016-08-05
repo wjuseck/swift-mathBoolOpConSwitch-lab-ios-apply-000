@@ -7,7 +7,7 @@
 ##Instructions
 In this final lab you'll be writing three functions. All of your functions should be written in the `ViewController.swift` file located in the .xcworkspace file (included with this repo.).
 
-**1** - Create a function named averageIsAbove75 that takes in three arguments all of type Double with a return type of type Bool. It should take these three values and find their average. If the average is greater than 75, then return `true`, else return `false`.
+**1** - Create a function named averageIsAbove75 that takes in three arguments all of type `Double` with a return type of type `Bool`. It should take these three values and find their average. If the average is greater than 75, then return `true`, else return `false`.
 
 If you were to call on this function, it would yield the following results. Notice how there are no external names to the parameters when this function is called.
 
@@ -43,9 +43,9 @@ passwordCombo(username: "Elaine", password: 33)
 
 
 
-**3** - Write a function named `doIt` which takes in two arguments: "a" (which is of type ````String````) and "b" (which is of type ````Float````) and returns a ````Float````.  
+**3** - Write a function named `numberGenerator` which takes in two arguments: "a" (which is of type ````String````) and "b" (which is of type ````Float````) and returns a ````Float````.  
 
-Here is how ````doIt```` should work:
+Here is how `numberGenerator(_:_:)` should work:
 *  if `a` is between 1 and 5 (inclusive)  and `b` is between 10.5 and 15.0 (inclusive) or between 20.0 and 30.5 (inclusive) then return the product of `a` and `b`, otherwise.. return `0.0`
 * You don't yet know how to turn a `Float` into a `String` - so instead you can apply a technique like this to solve this problem using an `if-else` statement, or you can use a `switch` statement applying a similar technique.
 
@@ -60,13 +60,13 @@ if a == "1" {
 Here are some examples (notice how both parameters have no external names).
 
 ````Swift
-let a = doIt("2", 10.5)
+let a = numberGenerator("2", 10.5)
 // a = 21.0
 
-let b = doIt("9", 10.5)
+let b = numberGenerator("9", 10.5)
 // b = 0.0  because the first paramter is out of range
 
-let c = doIt("2", 7)
+let c = numberGenerator("2", 7)
 // c = 0.0  because the second parameter is out of range
 ````
 
@@ -74,5 +74,5 @@ let c = doIt("2", 7)
 Your code might be more clear and debuggable if you break it up into multiple functions instead of having one "big" function.
 
 
-<a href='https://learn.co/lessons/AllUnit3Lab' data-visibility='hidden'>View this lesson on Learn.co</a>
+
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-mathBoolOpConSwitch-lab'>Math Bool Op Con Switch Lab</a> on Learn.co and start learning to code for free.</p>
