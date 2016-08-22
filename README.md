@@ -3,6 +3,9 @@
 ![Ayn Rand](http://i.imgur.com/PSrvvAf.jpg?1)
 > If you don't know, the thing to do is not to get scared, but to learn. -[Ayn Rand](https://en.wikipedia.org/wiki/Ayn_Rand)
 
+## Overview
+
+This lab will give you practice writing functions that incorporate math, booleans, conditional, and swift statements. 
 
 ##Instructions
 In this final lab you'll be writing three functions. All of your functions should be written in the `ViewController.swift` file located in the .xcworkspace file (included with this repo.).
