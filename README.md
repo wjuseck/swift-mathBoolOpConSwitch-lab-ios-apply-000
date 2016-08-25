@@ -10,7 +10,7 @@ This lab will give you practice writing functions that incorporate math, boolean
 ##Instructions
 In this final lab you'll be writing three functions. All of your functions should be written in the `ViewController.swift` file located in the .xcworkspace file (included with this repo.).
 
-**1** - Create a function named averageIsAbove75 that takes in three arguments all of type `Double` with a return type of type `Bool`. It should take these three values and find their average. If the average is greater than 75, then return `true`, else return `false`.
+**1** - Create a function named averageIsAbove75 that takes in three arguments with the type `Double` and a return type of `Bool`. It should take these three values and find their average. If the average is greater than 75.0, then return `true`, else return `false`.
 
 If you were to call on this function, it would yield the following results. Notice how there are no external names to the parameters when this function is called.
 
