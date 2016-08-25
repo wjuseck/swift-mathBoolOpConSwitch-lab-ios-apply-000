@@ -38,21 +38,21 @@ class VCTests: QuickSpec {
         describe("passwordCombo(username:password:)") {
             it("Takes a String and an Int.  If the String is equal to Jerry, Elaine or Michael, AND the Int is evenly divisible by 3, then it returns true, otherwise it returns false") {
                 
-                expect(testVC.passwordCombo(username: "Jose", password: 3)).to(equal("Access Denied"))   // bad name
+                expect(testVC.passwordCombo("Jose", password: 3)).to(equal("Access Denied"))   // bad name
                 
-                expect(testVC.passwordCombo(username: "Elain", password: 3)).to(equal("Access Denied"))   // slight misspelled name
+                expect(testVC.passwordCombo("Elain", password: 3)).to(equal("Access Denied"))   // slight misspelled name
                 
-                expect(testVC.passwordCombo(username: "Jerry", password: 4)).to(equal("Access Denied"))   // bad number
+                expect(testVC.passwordCombo("Jerry", password: 4)).to(equal("Access Denied"))   // bad number
                 
-                expect(testVC.passwordCombo(username: "Jose", password: 4)).to(equal("Access Denied"))   // bad name and bad number
+                expect(testVC.passwordCombo("Jose", password: 4)).to(equal("Access Denied"))   // bad name and bad number
                 
-                expect(testVC.passwordCombo(username: "Jerry", password: 3)).to(equal("Welcome!"))
+                expect(testVC.passwordCombo("Jerry", password: 3)).to(equal("Welcome!"))
                 
-                expect(testVC.passwordCombo(username: "Elaine", password: 6)).to(equal("Welcome!"))
+                expect(testVC.passwordCombo("Elaine", password: 6)).to(equal("Welcome!"))
                 
-                expect(testVC.passwordCombo(username: "Michael", password: 21)).to(equal("Welcome!"))
+                expect(testVC.passwordCombo("Michael", password: 21)).to(equal("Welcome!"))
                 
-                expect(testVC.passwordCombo(username: "Michael", password: 0)).to(equal("Welcome!"))
+                expect(testVC.passwordCombo("Michael", password: 0)).to(equal("Welcome!"))
             }
         }
         
