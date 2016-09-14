@@ -101,9 +101,9 @@
 		5BA61EB51D22B68A00871321 /* AllTheBasicsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5BA06B191D89C2410056AB2F /* AllTheBasicsTest.swift */,
 				5BA61EB81D22B68A00871321 /* Info.plist */,
 				5B0A921E1D22B8FA00C754F2 /* VCTests.swift */,
-				5BA06B191D89C2410056AB2F /* AllTheBasicsTest.swift */,
 			);
 			path = AllTheBasicsTests;
 			sourceTree = "<group>";
