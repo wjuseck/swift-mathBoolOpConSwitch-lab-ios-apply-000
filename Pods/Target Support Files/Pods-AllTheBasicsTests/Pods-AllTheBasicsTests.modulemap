@@ -1,6 +1,0 @@
-framework module Pods_AllTheBasicsTests {
-  umbrella header "Pods-AllTheBasicsTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
