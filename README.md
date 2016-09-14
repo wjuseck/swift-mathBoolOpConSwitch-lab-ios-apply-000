@@ -46,36 +46,16 @@ passwordCombo(username: "Elaine", password: 33)
 
 
 
-**3** - Write a function named `numberGenerator` which takes in two arguments: "a" (which is of type ````String````) and "b" (which is of type ````Float````) and returns a ````Float````.  
+**3** - Create the function `describe(emoji:)`. It should take in one argument of type `String` and return back a `String`.
 
-Here is how `numberGenerator(_:_:)` should work:
-*  if `a` is between 1 and 5 (inclusive)  and `b` is between 10.5 and 15.0 (inclusive) or between 20.0 and 30.5 (inclusive) then return the product of `a` and `b`, otherwise.. return `0.0`
-* You don't yet know how to turn a `Float` into a `String` - so instead you can apply a technique like this to solve this problem using an `if-else` statement, or you can use a `switch` statement applying a similar technique.
+You should switch on the `emoji` argument in your implementation and return back a `String` describing the emoji that is passed in as an argument. The emoji's and their descriptions you should include in your switch statement are the following:
 
-```swift
-if a == "1" { 
-	// use 1 to do math stuff, not "1" because we know that a is "1"!
-} else if a == "2" {
-	// do something with 2
-}
-```
+💋 - "Kiss"  
+🐈 - "Cat"  
+🐢 - "Turtle"  
+🍕 - "Pizza"  
+👻 - "Unknown"  
 
-Here are some examples (notice how both parameters have no external names).
-
-````Swift
-let a = numberGenerator("2", 10.5)
-// a = 21.0
-
-let b = numberGenerator("9", 10.5)
-// b = 0.0  because the first paramter is out of range
-
-let c = numberGenerator("2", 7)
-// c = 0.0  because the second parameter is out of range
-````
-
-
-Your code might be more clear and debuggable if you break it up into multiple functions instead of having one "big" function.
-
-
+For the default case, we should return back the `String` "Unknown".
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-mathBoolOpConSwitch-lab'>Math Bool Op Con Switch Lab</a> on Learn.co and start learning to code for free.</p>
