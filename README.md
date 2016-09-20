@@ -54,7 +54,7 @@ You should switch on the `emoji` argument in your implementation and return back
 🐈 - "Cat"  
 🐢 - "Turtle"  
 🍕 - "Pizza"  
-👻 - "Unknown"  
+👻 - "Ghost"  
 
 For the default case, we should return back the `String` "Unknown".
 
