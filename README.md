@@ -57,7 +57,6 @@ You should switch on the `emoji` argument in your implementation and return back
 
 For the default case, we should return back the `String` "Unknown".
 
-
 ![](https://media.giphy.com/media/xT1XGXgtj8PWdvCLFS/giphy.gif)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-mathBoolOpConSwitch-lab'>Math Bool Op Con Switch Lab</a> on Learn.co and start learning to code for free.</p>
