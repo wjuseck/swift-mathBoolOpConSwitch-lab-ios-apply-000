@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     
 func averageIsAbove75(a: Double, b: Double, c: Double) -> Bool {
-    if a + b + c / 3 >= 75 {
+    if (a + b + c) / 3 > 75 {
         return true
     } else {
         return false
@@ -22,19 +22,18 @@ func averageIsAbove75(a: Double, b: Double, c: Double) -> Bool {
 }
 
 func passwordCombo(username: String, password: Int) -> String {
-    if username == "Jerry" {
-        }
-    if username == "Elaine" {
-        }
-    if username == "Michael" {
-        }
-    if (password % 3 == 0) {
+    if username == "Jerry" && (password % 3 == 0) {
         return "Welcome!"
     }
-    else {
-    return "Access Denied"}
-        }
+    if username == "Elaine" && (password % 3 == 0)  {
+        return "Welcome!"
+    }
+    if username == "Michael" && (password % 3 == 0)  {
+        return "Welcome!"
+    } else {
+        return "Access Denied"}
 }
+
 
 func describe(emoji: String) -> String {
     if emoji == "💋" {
@@ -52,6 +51,6 @@ func describe(emoji: String) -> String {
     if emoji == "👻" {
         return "Ghost"
     } else {
-        return "Unknown"
-    }
+        return "Unknown"}
+}
 }
